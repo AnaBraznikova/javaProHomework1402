@@ -9,6 +9,10 @@ public class Person {
         return fullName;
     }
 
+    public Person(){
+
+    }
+
     public Person(String fullName, int age) {
         this.fullName = fullName;
         this.age = age;

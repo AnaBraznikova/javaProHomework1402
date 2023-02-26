@@ -3,19 +3,19 @@ package telran.homework1402;
 public class ApplicationPhone {
 
     public static void main(String[] args) {
-        Phone phoneOne = new Phone();
+        PhoneEin phoneOne = new PhoneEin();
         phoneOne.setModel("Apple");
         phoneOne.setNumber("+3706589911");
         phoneOne.setWeight(240);
         phoneOne.setName("Kotov");
 
-        Phone phoneTwo = new Phone();
+        PhoneEin phoneTwo = new PhoneEin();
         phoneTwo.setModel("Samsung");
         phoneTwo.setNumber("+3706942268");
         phoneTwo.setWeight(250);
         phoneTwo.setName("Boris");
 
-        Phone phoneThird = new Phone();
+        PhoneEin phoneThird = new PhoneEin();
         phoneThird.setModel("Xiaomi");
         phoneThird.setNumber("+3709471162");
         phoneThird.setWeight(255);

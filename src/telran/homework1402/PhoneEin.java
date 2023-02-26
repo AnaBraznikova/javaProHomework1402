@@ -1,6 +1,6 @@
 package telran.homework1402;
 
-public class Phone {
+public class PhoneEin {
 
 
     private String number;
@@ -59,5 +59,6 @@ public class Phone {
     public String getReceiveCall() {
         return getName();
     }
-
 }
+
+

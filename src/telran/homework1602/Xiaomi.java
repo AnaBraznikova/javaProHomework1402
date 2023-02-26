@@ -4,7 +4,6 @@ public class Xiaomi extends Phone {
     private String name;
 
 
-
     public Xiaomi(String name) {
         this.name = name;
     }
@@ -16,7 +15,7 @@ public class Xiaomi extends Phone {
 
     @Override
     public void call() {
-      // super.call();
+        // super.call();
         System.out.println("Phone " + name + " call to " + "+" + getRandomNumber());
     }
 

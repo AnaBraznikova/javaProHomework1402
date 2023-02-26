@@ -10,13 +10,12 @@ public class Apple extends Phone {
     private String number;
 
 
-
     public Apple() {
     }
 
     @Override
     public void call() {
-       //super.call("Phone " + name);
+        //super.call("Phone " + name);
         System.out.println("Phone " + name + " call to " + "+" + getRandomNumber());
     }
 
